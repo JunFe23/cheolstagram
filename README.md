@@ -96,6 +96,6 @@ file:
 
 
 ### 2021.06.04
-cheolstagram 프로젝트 생성.
-maria db 설치 및 설정.
-STS4 - maria db 연동
+- cheolstagram 프로젝트 생성.
+- maria db 설치 및 설정.
+- STS4와 maria db 연동
