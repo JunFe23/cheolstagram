@@ -93,3 +93,9 @@ file:
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags"%>
 ```
+
+
+#2021.06.04
+cheolstagram 프로젝트 생성.
+maria db 설치 및 설정.
+STS4 - maria db 연동
