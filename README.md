@@ -99,3 +99,9 @@ file:
 - cheolstagram 프로젝트 생성.
 - maria db 설치 및 설정.
 - STS4와 maria db 연동
+
+### 2021.06.05
+- controller 동작 방식 이해
+- http 4가지 요청 방식
+- 쿼리스트링, 주소변수매핑
+- http body 데이터 전송하기, json 응답 공부
