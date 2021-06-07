@@ -108,3 +108,12 @@ file:
 
 ### 2021.06.06
 - html 응답
+
+### 2021.06.07
+- jsp파일에 java코드 사용.
+- redirection 연습
+
+- security config 생성
+- CSFR 토큰 해제
+- User model 만들기
+- 기본 회원가입 완료!!!!
