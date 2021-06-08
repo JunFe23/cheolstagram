@@ -1,15 +1,22 @@
 package com.cos.photogramstart.config;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.util.matcher.AnyRequestMatcher;
 
 @EnableWebSecurity // 해당 파일로 security를 활성화 시킴.
 @Configuration // IoC
 public class SecurityConfig  extends WebSecurityConfigurerAdapter{
 
+	@Bean
+	public BCryptPasswordEncoder encoded() {
+		return new BCryptPasswordEncoder();
+	}
+	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		// super 삭제 - 기존 security가 가지고 있던 기능이 다 비활성화됨.
