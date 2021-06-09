@@ -24,7 +24,9 @@
                         <h1><img src="/images/logo.jpg" alt=""></h1>
                         
                         <!--로그인 인풋-->
-                        <form class="login__input" >
+                        <!-- 보통은 INSERT 할 때만 POST 방식을 사용하고, SELECT는 GET 방식을 사용하지만 -->
+                        <!-- 로그인의 경우 중요한 정보이기 때문에 POST 방식을 사용하여 body에 정보를 담아 넘긴다. --> 
+                        <form class="login__input"  action="/auth/signin" method="POST">
                             <input type="text" name="username" placeholder="유저네임" required="required" />
                             <input type="password" name="password" placeholder="비밀번호" required="required" />
                             <button>로그인</button>
