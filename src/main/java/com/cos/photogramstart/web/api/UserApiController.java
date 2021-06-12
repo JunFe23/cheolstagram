@@ -23,7 +23,7 @@ public class UserApiController {
 	public CMRespDto<?> update(@PathVariable int id, UserUpdateDto userUpdateDto, @AuthenticationPrincipal PrincipalDetails principalDetails) {
 		System.out.println(id);
 		User userEntity = userService.회원수정(id, userUpdateDto.toEntity());
-		principalDetails.setUser(userEntity);
+		principalDetails.setUser(userEntity); // 세션 정보 변경.
 		return new CMRespDto<>(1, "회원수정완료", userEntity);
 	}
 }
