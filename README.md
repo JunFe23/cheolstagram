@@ -84,7 +84,7 @@ spring:
       password: 1234   
 
 file:
-  path: C:/src/springbootwork-sts/upload/
+  path: /Users/junfe/Desktop/Coding/웹프로젝트/개인/cheolstagram/workspace/springbootwork/upload/
 ```
 
 ### 태그라이브러리
