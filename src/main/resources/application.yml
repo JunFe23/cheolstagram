@@ -37,4 +37,4 @@ spring:
       password: 1234   
 
 file:
-  path: C:/workspace/springbootwork/upload/
+  path: /Users/junfe/Desktop/Coding/웹프로젝트/개인/cheolstagram/workspace/springbootwork/upload/
