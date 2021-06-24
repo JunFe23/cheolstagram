@@ -47,21 +47,15 @@ public class AuthController {
 	@PostMapping("/auth/signup")
 	public  String signup(@Valid SignupDto signupDto, BindingResult bindingResult) { // key=data 형식 : x-www-urlencoded
 
-		if(bindingResult.hasErrors()) {
-			Map<String, String> errorMap = new HashMap<>();
-			
-			for(FieldError error : bindingResult.getFieldErrors()) {
-				errorMap.put(error.getField(), error.getDefaultMessage());
-				System.out.println(error.getDefaultMessage());
-			}
-			throw new CustomValidationException("유효성 검사 실패.", errorMap);
-		} else {
 			// SignupDto -> User
 			User user = signupDto.toEntity();
 			//log.info(user.toString());
-			User userEntity = authService.회원가입(user);
-			System.out.println(userEntity);
+			authService.회원가입(user);
+			//System.out.println(userEntity);
+			
+			// 로그를 남기는 후처리
 			return "auth/signin";
-		}
+			
+		
 	}
 }
