@@ -214,4 +214,29 @@ aop 처리 완료
 - 최종테스트 완료
 철스타그램 작성 완료
 
-복습 및 정리 시작할 예정
+
+### 구현 화면
+
+## 로그인 화면
+![image](https://user-images.githubusercontent.com/75111342/129518781-3a592bf7-d8c8-4d95-91db-faaf20d4bbd5.png)
+
+## 회원가입 화면
+![image](https://user-images.githubusercontent.com/75111342/129518808-d450d96a-f934-4229-854f-989a795f4443.png)
+
+## 페이스북으로 로그인하기
+![image](https://user-images.githubusercontent.com/75111342/129518882-1eb9a792-2c28-42b1-8235-e15cd68f2745.png)
+
+## 메인 스토리 화면
+![image](https://user-images.githubusercontent.com/75111342/129518919-a241eebe-9280-4c40-82a2-84e06364acd7.png)
+
+## 인기페이지 화면
+![image](https://user-images.githubusercontent.com/75111342/129518956-aafadbb8-3ea8-4236-9de9-f71fb29a75af.png)
+
+## 마이페이지
+![image](https://user-images.githubusercontent.com/75111342/129518982-37b75195-ca28-425c-958f-182c94fb53ff.png)
+
+## 구독정보 확인
+![image](https://user-images.githubusercontent.com/75111342/129519017-a2070010-27fd-4be8-b640-ba5842c0bf94.png)
+
+## 회원정보 변경
+![image](https://user-images.githubusercontent.com/75111342/129519041-74a7a907-4d12-4e53-9df0-47b7ef01caad.png)
